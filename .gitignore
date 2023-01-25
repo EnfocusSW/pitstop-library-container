@@ -1,0 +1,23 @@
+# https://www.pluralsight.com/guides/how-to-use-gitignore-file
+# Some common .gitignore configurations https://gist.github.com/octocat/9257657
+
+# folders
+node_modules/
+logs/
+test/
+
+# ignore ALL .log files
+*.log
+
+# macOS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+#ignore js files and tgz
+*.js
+*.tgz
